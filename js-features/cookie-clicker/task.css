@@ -1,0 +1,10 @@
+.clicker__cookie {
+    cursor: pointer;
+    transition: transform 0.2s;
+    transform: scale(1);
+  }
+  
+  .clicker__cookie--big {
+    transform: scale(1.25);
+  }
+  
