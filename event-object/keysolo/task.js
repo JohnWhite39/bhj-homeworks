@@ -17,7 +17,6 @@ class Game {
   }
 
   registerEvents() {
-    registerEvents() {
     document.addEventListener('keydown', (event) => {
       if (!this.currentSymbol) return;
 
@@ -30,7 +29,6 @@ class Game {
         this.fail();
       }
     });
-  }
   }
 
   success() {
@@ -96,5 +94,4 @@ class Game {
   }
 }
 
-new Game(document.getElementById('game'))
-
+new Game(document.getElementById('game'));
